@@ -16,6 +16,6 @@ import recommendations as recommend
 
 #print recommend.sim_pearson(recommend.critics, 'Lisa Rose' ,'Gene Seymour')
 
-print recommend.topMatches(recommend.critics, 'Toby', n=3)
+print(recommend.topMatches(recommend.critics, 'Toby', n=3))
 
-print recommend.topMatches(recommend.critics, 'Toby', n=3, similarity=recommend.sim_distance)
+print(recommend.topMatches(recommend.critics, 'Toby', n=3, similarity=recommend.sim_distance))
